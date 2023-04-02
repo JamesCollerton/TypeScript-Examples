@@ -1,0 +1,30 @@
+{
+  "name": "typescript-examples",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "npx tsc",
+    "run": "npm run compile && node build/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JamesCollerton/TypeScript-Examples.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JamesCollerton/TypeScript-Examples/issues"
+  },
+  "homepage": "https://github.com/JamesCollerton/TypeScript-Examples#readme",
+  "devDependencies": {
+    "@tsconfig/node16": "^1.0.3",
+    "@types/node": "^18.15.11",
+    "@typescript-eslint/eslint-plugin": "^5.57.0",
+    "@typescript-eslint/parser": "^5.57.0",
+    "eslint": "^8.37.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.2"
+  }
+}
